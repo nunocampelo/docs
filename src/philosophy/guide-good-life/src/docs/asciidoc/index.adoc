@@ -1,0 +1,64 @@
+= A Guide to the Good Life
+Nuno Campelo <campelo.nuno@gmail.com>
+:toc:
+:icons: font
+:imagesDir: ../../resources/img
+
+== Rise of Stoicism
+____
+Pre-Socratic philosiphy begins... with the discovery of Nature; Socratic philosophy begins with the discovery of *man's soul*
+____
+
+____
+[Socrates] was as veritable paradigm of philosophical activity both in *thought* (theory) and in *deed* (pratical)
+____
+
+****
+[.lead]
+What you want out *of* life?
+****
+
+[CAUTION]
+Not what you want *in* life sush as a caring spouse, good job or a nice house
+
+.Philosophy of Life
+. Help you identify a coerent grand goal in life
+. Supply a strategy for attaining that goal
+
+.Ancient philosofical subjects
+* Physics
+* Logic
+* Philosofy of Life
+
+.Proeminent Ancient Schools
+* Cyrenaics +
+Grand goal in living was the experience of pleasure
+* Cynics +
+Eliminate all desire and possetions - ascetic lifestyle
+* Stoic +
+One should enjoy life without being enslaved by it
+
+.Stoicism Aims
+* Comtemplate the transitoty nature of the world around us
+* Master your psyche and desires to attain tranquility and point them on a steady and favourable and joyfull course
+* Be animated by a cheerful spirit that issues from deep within, that comes from being delighted by his own resources and desires no joys greater that hin inner joys
+
+.Stoicism Foes
+* Insatiability +
+One way to go around taiming our tendency to always want more is to persuade ourselves to want the things we already have
+
+.Stoicism Pratices
+* Negative visualization +
+Spend time thinking about bad things that could happen to you so you can apreciate the good things you got going on in your life
+* Voluntary disconfort +
+Voluntarilly go without some of life's plesures so that you are not trapped thinking you can't live without or become addicted to them
+* Layers of control
+* Mindfull Introspection
+
+.Stoic Virtues
+* Courageous
+* Temperate
+* Reasonable
+* Self-disciplined
+* Caring
+

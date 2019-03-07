@@ -1,0 +1,77 @@
+= Best Cheat Sheet
+Nuno Campelo <campelo.nuno@gmail.com>
+:toc:
+:icons: font
+:imagesDir: ../../resources/img
+:customAttr: custum-attr-value
+
+== Page Header
+
+===  Attributes
+Using a custom attribute{customAttr}
+
+// here is how to create an anchor withing the document
+[[formating]]
+== Formating
+
+=== Commenting
+Something you can't see either line comments
+// line comments
+
+or block ones...
+////
+block comment
+////
+
+=== Plain text
+Some `monospaced` _italic_ *bold* text formating with asciidoc +
+You can also [red]#color# text...
+
+=== Blocks
+[source,bash]
+----
+$ script_hell_out_of_adoc
+----
+
+....
+Here is a literal block
+....
+
+****
+An a delimited one
+****
+
+
+=== Admonitions
+[TIP]
+Tip like that
+
+=== Quoting
+[quote, Sir Arthur Conan Doyle, The Adventures of Sherlock Holmes]
+____
+When you have eliminated all which is impossible, then whatever remains, however improbable, must be the truth.
+____
+
+[TIP]
+The quote author and reference is not required
+
+=== Rulers
+Here is a ruler:
+
+'''
+
+== Including and linking
+Also need to include other documents +
+include::cheat-sheet-snippet.adoc[]
+
+Or a pretty image: +
+image:tiger.png[Tiger]
+
+http://asciidoc.org[URL], link:../../resources/img/tiger.png[relative] or xref:formating[in document] link. The link:++https://example.org/?q=[a b]++[URL]
+ can even contain special characters.
+
+mailto:campelo.nuno@gmail.com[Mailling]
+ also shoud work from time to time...
+
+== References
+https://asciidoctor.org/docs/user-manual/[User Manual]
