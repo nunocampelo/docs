@@ -26,9 +26,16 @@ Not what you want *in* life sush as a caring spouse, good job or a nice house
 . Supply a strategy for attaining that goal
 
 .Ancient philosofical subjects
-* Physics
-* Logic
-* Philosofy of Life
+* Physics +
+The study of the natural world around us as well as the supernatural and relationship between them
+* Logic +
+Proper way to reason rationally persuade and refute arguments
+* Ethics +
+Eudaemonistic ethics from the Greek _good spirit_. Concerns not on what is right and wrong but on living a good, happy life. The pratical day to day aspects of the philosophy of life.
+
+____
+Stoic philosophy is like a fertile field,  with *Logic* being the encircling fence, *Ethics* the crop and *Physics* the soil
+____
 
 .Proeminent Ancient Schools
 * Cyrenaics +
@@ -47,7 +54,7 @@ One should enjoy life without being enslaved by it
 * Insatiability +
 One way to go around taiming our tendency to always want more is to persuade ourselves to want the things we already have
 
-.Stoicism Pratices
+.Stoicism Practices
 * Negative visualization +
 Spend time thinking about bad things that could happen to you so you can apreciate the good things you got going on in your life
 * Voluntary disconfort +
@@ -56,9 +63,22 @@ Voluntarilly go without some of life's plesures so that you are not trapped thin
 * Mindfull Introspection
 
 .Stoic Virtues
-* Courageous
-* Temperate
+Stoic virtue is concerned on how well one performs the function which one was designed to. Living in accordance with ones own nature. Since reason is what most distinguishes ourselfs from animals stoics believe that we were primarely design to be reasonable (and what follows from it)...
+
 * Reasonable
-* Self-disciplined
-* Caring
+    * Self-disciplined
+    * Temperate
+    * Diligent
+    * Rational
+    * Serene
+* Social +
+Honor our parents, be agreeable to our friends, and concerned with the interests of our countrymen
+    ** Courageous
+    ** Heroic
+    ** Honored
+    ** Agreeable
+    ** Empatic
+    ** Interested
+    ** Caring
+    ** Loving
 
