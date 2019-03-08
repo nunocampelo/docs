@@ -1,0 +1,31 @@
+= Vim Cheat Sheet
+Nuno Campelo <campelo.nuno@gmail.com>
+:toc:
+:icons: font
+:imagesDir: ../../resources/img
+
+== Navigation
+
+=== Line
+
+[cols=2*,options=header]
+|===
+|Behaviour
+|Shortcut
+
+|beginning of line
+|0
+
+|end of line
+|^ + $
+
+|go to line number
+|number gg
+
+|bdvance word
+|w
+
+|back word
+|b
+
+|===

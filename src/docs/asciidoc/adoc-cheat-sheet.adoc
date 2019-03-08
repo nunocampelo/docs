@@ -41,7 +41,6 @@ Here is a literal block
 An a delimited one
 ****
 
-
 === Admonitions
 [TIP]
 Tip like that
@@ -54,6 +53,21 @@ ____
 
 [TIP]
 The quote author and reference is not required
+
+=== Tables
+
+[cols=2*,options=header]
+|===
+|Name
+|Group
+
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+|===
 
 === Rulers
 Here is a ruler:
@@ -74,4 +88,5 @@ mailto:campelo.nuno@gmail.com[Mailling]
  also shoud work from time to time...
 
 == References
-https://asciidoctor.org/docs/user-manual/[User Manual]
+https://asciidoctor.org/docs/user-manual/[User Manual] +
+https://asciidoctor.org/docs/asciidoc-writers-guide/[Writers Guide]
