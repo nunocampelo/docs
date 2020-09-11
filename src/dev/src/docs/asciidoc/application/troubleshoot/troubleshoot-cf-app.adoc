@@ -1,0 +1,60 @@
+Troubleshoot an App in CF
+=========================
+:author:    Nuno Campelo
+:email:     <campelo.nuno@gmail.com>
+:task:      
+:doc:       
+:icons:     font
+:doctype: book
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+:hardbreaks:
+
+== Overview
+
+== How To
+
+=== Change log level
+
+.Run
+[source,bash]
+----
+cf set-env alarmmgr-sp _JAVA_OPTIONS '-Dlogging.level.org.springframework=TRACE -Dlogging.level.org.hibernate=TRACE -Dlogging.level.com.group=TRACE'
+----
+
+=== Remote Debug
+.Configure APP env
+[source,bash]
+----
+cf set-env appName JBP_CONFIG_DEBUG '{enabled: true}'
+cf restage appName
+----
+
+.Create PROXY
+[source,bash]
+----
+cf ssh -N -T -L 8000:localhost:8000 appName
+----
+
+.Connect with INTELLIJ
+* Edit Configurations
+* Navigate to Templates > Remote
+* Add new configuration ()
+* Change Port to 8000
+* Select project module and create
+* Install breakpoint and run in debug
+
+== References
+
+ifeval::["{doc}" != ""]
+{doc}[Wiki Documentation]
+endif::[]
+
+ifeval::["{task}" != ""]
+{task}[Jira Documentation]
+endif::[]
+
+== Sources
+

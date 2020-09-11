@@ -6,5 +6,5 @@
  * Detailed information about configuring a multi-project build in Gradle can be found
  * in the user guide at https://docs.gradle.org/4.10.3/userguide/multi_project_builds.html
  */
-rootProject.name = 'docs'
-include 'src:development', 'src:philosophy:guide-good-life'
+rootProject.name = 'general'
+include 'src:dev', 'src:personal'

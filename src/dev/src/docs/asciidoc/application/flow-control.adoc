@@ -1,0 +1,71 @@
+Flow Control
+============
+:author:    Nuno Campelo
+:email:     <campelo.nuno@gmail.com>
+:task:      
+:doc:       
+:icons: font
+:doctype: book
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+{task} +
+{doc} +
+
+[[overview]]
+== Overview
+
+Flow Control is about preventing, identifying and recovering application servers.
+
+[[strategies]]
+== Strategies
+
+.There are a bunch of flow control strategies to consider
+* Log and Monitor failures
+* Error Handling
+* Try with Fallback
+* Automatic Retry
+* Curcuit Breaking
+    ** Limit requests until the application recovers
+* Rate Limiting
+    ** Limit number of requests within a time period
+* Bulk Head
+    ** Limit concurrent requests to endpoints
+* TimeLimiter
+    ** Request Timeout handling
+* Cache
+    ** Results Caching
+
+[[libraries]]
+== Libraries
+
+There are quite a few java libraries that help you implement flow control on your application. Here we explore https://github.com/resilience4j/resilience4j[resilience4j] and https://github.com/marcosbarbero/spring-cloud-zuul-ratelimit[Zuul Rate Limit].
+
+[[resilience4j]]
+=== Resilience4j
+
+Resilience4j enables you to implement most of the flow control strategies easily in your applications. 
+
+TIP: Resilience4j can be configured either programatically or using a combination of annotations and properties
+
+The https://github.com/darkospoljaric/resillience4j/tree/master/resilience4j-spring-boot2[Spring Boot 2] integration project contemplates the circuit breaking the rate limiter and the retry core modules. Other modules can still be used but must be imported on their own and configured programatically.
+
+.Here are a couple of good resources on it
+* https://resilience4j.readme.io/docs/getting-started[Official Docs]
+* https://github.com/darkospoljaric/resillience4j[Code]
+* https://github.com/resilience4j/resilience4j-spring-boot2-demo[Spring Boot 2 Demo]
+* https://dzone.com/articles/resilience4j-intro[Introduction and Demo]
+* https://www.baeldung.com/resilience4j[Guide and Demo]
+
+[[zuulratelimit]]
+=== Zuul Rate Limit
+
+The Zuul Rate Limit project alows you to implement some of the flow control strategies on your proxied calls.
+
+[[runningthesample]]
+== Running the Sample
+
+The sample defines you spring application profiles to showcase the two different libraries used. Namelly you should activate either the *resilience4j* or the *zuulratelimit* (or both).
+
+TIP: The project uses annotation and properties configuration to configure both libraries. See the properties comments for their usage

@@ -1,0 +1,37 @@
+Deploy Maven Artifact
+=====================
+:author:    Nuno Campelo
+:email:     <campelo.nuno@gmail.com>
+:task:      task
+:doc:       doc
+:icons:     font
+:doctype: book
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+== Alternatives
+
+.Deploy Manually
+* Run the command
+[source,bash]
+----
+$ mvn deploy:deploy-file -DgroupId=${artifact.groupId} -DartifactId=${artifact.artifactId} -Dversion=${artifact.version} -Dpackaging=jar -Dfile=${fileName} -DrepositoryId=gdp-at-release -Durl=http://nexus.domain/repository/maven-releases
+----
+* Example
+[source,bash]
+----
+
+mvn deploy:deploy-file -DgroupId=group.id -DartifactId=gdp-policy-manager-ui -Dversion=1.0.28-SNAPSHOT -Dpackaging=jar -Dfile=gdp-policy-manager-ui-1.0.28-SNAPSHOT.jar -DrepositoryId=gdp-at-snapshot -Durl=http://nexus.domain/repository/maven-snapshots
+----
+
+.Using Ops CLI
+* Deployment using the ops CLI is done via the release command
+* Open /d/Users/T0206442/dev/script/ops/src/commands/release.ts and update the projects variable
+* Navigate to the folder where you have downloaded or want to download it
+* Run the command (use -d if you want to download the artifact)
+[source,bash]
+----
+$ ops release deploy [-d] 
+----

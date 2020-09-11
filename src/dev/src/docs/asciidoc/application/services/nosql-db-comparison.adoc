@@ -1,0 +1,62 @@
+NoSQL DB
+========
+:author:    Nuno Campelo
+:email:     <campelo.nuno@gmail.com>
+:task:      task
+:doc:       doc
+:icons:     font
+:doctype: book
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+.Comparison analysis
+
+[options="header,footer"]
+|===
+|DB|Pros|Cons
+
+|mongodb
+a|
+----
+.Good spring data support including:
+    Pagination
+    QueryDSL for authorization implementation (alternative to JPA specification)
+.POC pushed to gdp-alarm-manager /sandbox/mongo branch
+.Open source
+.Good doc on QueryDSL: https://www.logicbig.com/tutorials/spring-framework/spring-data/query-dsl-basic.html
+----
+a|
+----
+.Non compliant with safety and security requirements (?)
+.Replication model is not easy to setup (data loss may occur)
+----
+
+|couchdb
+a|
+----
+.Compliant with safety and security requirements
+.Open source
+----
+a|
+----
+.Weak integration with spring data. Found the following projects:
+    https://github.com/spring-projects/spring-data-couchdb - is at an initial state
+    https://github.com/rwitzel/CouchRepository - Poor usage/commits and contributers
+.Lack of knowlegde within the team
+----
+
+|couchbase
+a|
+----
+.Good spring data support (does it include pagination and specification querydsl support?)
+.Comparison with couchdb here: https://www.couchbase.com/couchbase-vs-couchdb
+----
+a|
+----
+.Lack of knowlegde within the team
+.Payed Entreprise version (community version migth not be enough). See https://www.couchbase.com/products/editions
+
+----
+|===
